@@ -29,8 +29,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void compute(View view) {
-        Toast.makeText(MainActivity.this, "计算结果：" + 2 / 0, Toast.LENGTH_LONG).show();
-//        Toast.makeText(MainActivity.this, "计算结果：" + 2 / 1, Toast.LENGTH_LONG).show();
+//        Toast.makeText(MainActivity.this, "计算结果：" + 2 / 0, Toast.LENGTH_LONG).show();
+        Toast.makeText(MainActivity.this, "计算结果：" + 2 / 1, Toast.LENGTH_LONG).show();
     }
 
     private void requestExternalStoragePermission() {
